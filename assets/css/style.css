@@ -1,0 +1,276 @@
+/* Modificaciones al navbar */
+header .navbar {
+  background-color:#373A3C !important;
+}
+
+header a {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Sección Hero */
+#hero {
+  background-image: url("../img/bg-hero.jpg");
+  background-size: cover;
+  background-position:center;
+  min-height: 500px;
+}
+
+#hero h1 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5rem;
+  text-align: right;
+  padding-top: 6rem;
+}
+
+#hero p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/*modificación de botones del hero */
+.botones {
+  display: flex; 
+  justify-content:end; /* Alinea horizontalmente */
+  align-items: center; /* alinea verticalmente */
+}
+
+.btn-outline-primary {
+border-color: #17A2B8 !important;
+color: #fff !important;
+}
+
+.btn-outline-primary:focus {
+  background-color: #17A2B8 !important;
+  color: #fff !important;
+  border-color:#17A2B8 !important;
+  }
+
+.btn-outline-primary:hover {
+  background-color: #17A2B8 !important;
+  color: #fff !important;
+  border-color:#17A2B8 !important;
+  }
+
+.btn-primary {
+  background-color: #17A2B8 !important;
+  color: #fff !important;
+  border-color:#17A2B8 !important;
+}
+
+.btn-primary:hover {
+  background-color: #116e7c !important;
+  color: #fff !important;
+  border-color:#116e7c !important;
+}
+
+
+/* sección Acerca de mí */
+.about-me {
+  
+  background-color: #fff;
+  color: #000;
+  margin: 0 5rem;
+}
+
+.about-me h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5rem;
+}
+
+.about-me i {
+  font-size: 3rem;
+}
+
+.about-me .row {
+  margin: 5rem auto !important;
+}
+
+.about-me i, h3 {
+  display: flex; 
+  justify-content:center; 
+  align-items: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.about-me p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Sección Mis Trabajos */
+.mis-trabajos {
+  background-color: #17A2B8;
+  min-height: 38rem;
+}
+
+.mis-trabajos img {
+  height: 15rem;
+}
+
+.mis-trabajos .btn-outline-primary {
+  color: #116e7c !important;
+}
+
+.mis-trabajos h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.8rem;
+  padding-top: 3rem;
+}
+
+.mis-trabajos h5 {
+  color: #0F0F0F !important;
+  font-family: "Raleway", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 1.5rem !important;
+}
+
+.mis-trabajos p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Sección Contacto */
+.secc-contact h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  font-size: 2.8rem;
+}
+
+.secc-contact {
+  padding: 3rem;
+}
+
+.secc-contact p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+/* Sección footer */
+footer {
+  background-color: #0F0F0F;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+  #hero p {
+    font-size: 0.8rem;
+  }
+
+  .about-me h2 {
+    font-size: 2rem;
+  }
+  .about-me p {
+    font-size: 0.8rem;
+  }
+  .about-me h3 {
+    font-size: 1.2rem;
+  }
+
+  .secc-contact h2 {
+    font-size: 2rem;
+  }
+
+  .secc-contact p {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 3rem;
+  }
+  #hero p {
+    font-size: 0.8rem;
+  }
+
+  .mis-trabajos img {
+    height: 30rem;
+  }
+  
+
+  .about-me h2 {
+    font-size: 2.5rem;
+  }
+  .about-me p {
+    font-size: 1rem;
+  }
+  .about-me h3 {
+    font-size: 1.2rem;
+  }
+
+  .secc-contact h2 {
+    font-size: 2rem;
+  }
+
+  .secc-contact p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero h1 {
+    font-size: 3.5rem;
+  }
+  #hero p {
+    font-size: 0.9rem;
+  }
+
+  .mis-trabajos img {
+    height: 13rem;
+  }
+  
+
+  .about-me h2 {
+    font-size: 2.5rem;
+  }
+  .about-me p {
+    font-size: 1rem;
+  }
+  .about-me h3 {
+    font-size: 1.2rem;
+  }
+
+  .secc-contact h2 {
+    font-size: 3rem;
+  }
+
+  .secc-contact p {
+    font-size: 0.8rem;
+  }
+}
